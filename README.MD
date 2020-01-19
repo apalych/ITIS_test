@@ -16,7 +16,10 @@ python create_db.py
 ```
 3. Запустить основную программу:
 ```python
-export FLASK_APP=app.py flask run
+export FLASK_APP=app.py
+```
+```python
+flask run
 ```
 4. Зайти на запущенный веб-сервер по адресу `127.0.0.1:5000`, либо по адресу: `localhost:5000` и проверить работоспособность
 
